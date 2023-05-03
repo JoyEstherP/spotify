@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-shadow:none;
+}
+.header{
+    /* height: 68px; */
+     background-color: rgb(29, 27, 27); 
+    
+    display:flex;
+    position:fixed;
+}
+.spotify{
+    width: 274px;
+    background-color: rgb(0, 0, 0);
+    /* height: 68px; */
+    font-size: 30px;
+    display:flex;
+    
+}
+
+
+.adjimg{
+    width: 25%;
+    transition:3s;
+    cursor:pointer;
+    margin-left:20px;
+    margin-top:10px;
+    height:45px;
+}
+.pre_nex{
+    margin-left: 10px;
+    width: 4%;
+    /* height: 68px; */
+    /* background-color: rgb(124, 124, 124); */
+    display: flex;
+    
+    
+}
+.text_1{
+    font-family:'Segoe UI';
+    font-weight: smaller;
+    color: beige;
+    font-size:40px;
+}
+.text{
+    font-family:'Segoe UI';
+    font-weight: bold;
+    color: beige;
+}
+.p{
+    font-family:'Segoe UI';
+    margin-top:17px;
+    padding-right:10px;
+    color: rgb(255, 255, 255);
+}
+.sign_log{
+    width: 660px;
+    height: 68px;
+    margin-left:1000px;
+    /* background-color:red; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+    
+    
+    
+}
+.cir_but{
+    padding: 25px;
+    border-radius: 50%;
+    width: 40px;
+    height: 50px;
+    background-color: #b1b1b1;
+}
+button{
+    width: 110px;
+    height: 50px;
+    /* background-color:rgb(202, 10, 10); */
+    font-size: 15px;
+    font-family:'Segoe UI';
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 40px;
+    transition:0s;
+    border: 2px solid rgb(29, 27, 27);
+}
+.sign_up:hover{
+    color: white;
+}
+.sign_up{
+    background-color: rgb(29, 27, 27); 
+    
+    color: rgb(169, 169, 169);
+    
+    
+}
+.login:hover{
+    width: 115px;
+    font-size: 16px;
+}
+.login{
+    
+    transition:0s;
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    
+}
+.container{
+    padding-top: 60px;
+     /* height: 1000px;  */
+     display:flex;
+     background-color: rgb(43, 43, 43);
+}
+.to_acces{
+    width: 13%;
+    background-color: rgb(0, 0, 0);
+    height: 1000px; 
+    position:fixed;
+}
+.audios{
+    width: 87%;
+    background-color: rgb(43, 43, 43);
+    /* height: 1000px;  */
+    margin-left: 240px;
+}
+.tt{
+    font-size: 24px;
+    margin-bottom: 30px;
+    padding: 10px;
+    
+}
+.box_parrent{
+    display:flex;
+    row-gap:50px ;
+}
+.box{
+    box-shadow: none;
+    margin-left: 22px;
+    margin-top: 0px;
+    width: 11%;
+    /* height: 27vh; */
+    padding:0px;
+    padding-bottom: 0px;
+    background-color: rgb(43, 43, 43);
+    border-radius:10px;
+    overflow: hidden;
+    transition:0s;
+    box-shadow: 0px 0px 10px 
+}
+.box:hover{
+    background-color: rgb(62, 62, 62);
+}
+.img{
+    width: 91%;
+    margin: 10px;
+    height:14vh;
+    background-color:rgb(0, 94, 255);
+}
+.img_details{
+    width: 91%;
+    /* background-color:rgb(43, 43, 43); */
+    height: 10vh;
+    margin: 10px;
+}
+.img_heading{
+    margin: 10px;
+    color: white;
+    font-size:25px;
+    font-family:'Segoe UI';
+    font-size: bold;
+}
+.img_text{
+    margin:10px;
+    color: white;
+    font-size:15px;
+    font-family:'Segoe UI';
+    
+}
+.rows{
+    padding: 25px;
+}
+/* TO ACCESS  */
+.nav{
+    width: 100%;
+    position:relative;
+    padding-left: 25px; 
+    padding-top: 25px;
+    height: 120px;
+    /* background-color:red */
+}
+.left_nav{
+    color: #b1b1b1;
+    
+    font-weight:smaller;
+    font-size: 20px;
+    padding-bottom:0px;
+    cursor: pointer;
+    /* display: flex;
+    justify-content: center;
+    align-items:center; */
+    
+} 
+.home{
+    height:25px;
+    width: 35px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.search{
+    height:25px;
+    width: 35px;
+    position: relative;
+    margin-top: 20px;
+    /* margin-bottom: 10px; */
+    margin-left: 0px;
+    margin-right: 10px; 
+}
+.library{
+    height:25px;
+    width: 35px;
+    position: relative;
+    
+    /* margin-bottom: 10px; */
+    margin-top: 20px;
+    margin-right: 10px; 
+}
+.playlist{
+    height:25px;
+    width: 35px;
+    position: relative;
+    
+    margin-top: 50px;
+    
+    margin-right: 10px; 
+}
+.liked{
+    height:25px;
+    width: 35px;
+    position: relative;
+    margin-top: 20px;
+    margin-right: 10px; 
+
+}
+li{
+    list-style: none;
+    display: inline-block;
+    
+}
+.left_nav:hover{
+    color:white;
+}
+.search{
+    color:white;
+}
+/* coockies&privacy */
+.cookies{
+    height:100px;
+    
+    position:relative;
+    
+    margin-top:650px;
+    display:flex;
+    padding-left: 30px;
+    align-items:center;
+    cursor: pointer;
+}
+.cook:hover{
+    text-underline-position:auto;
+    color:white;
+}
+.cook{
+    color:rgb(180, 180, 180);
+}
+@media (max-width:740)and(min-width:360px){
+    .container{
+        height:x;
+        background: red;
+        width:100%;
+    }
+
+}
